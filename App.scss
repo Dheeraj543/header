@@ -1,0 +1,64 @@
+
+.padding{  
+    padding: 10px 10px 10px 10px;
+}
+.item{
+    border: 10dp;
+}
+.prof{
+    display: flex;
+    justify-content: flex-end;
+}
+.standard-bar{
+    background-color: #F2F2F2;
+    min-height: 2.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+    top:20%;
+}
+
+.landing-page-header-bar {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;
+    padding-left: 1.3rem;
+    padding-right: 1.5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    position: absolute;
+    z-index: 1;
+
+    .logo {
+        padding-left: 10px;
+        
+        width: 4.8rem;
+        height: 3.3rem;
+        float: left;
+    }
+
+    .header-breadcrumb {
+        color: black;
+        align-content: center;
+        float: right;
+        width: auto;
+        font-size: 1.2rem;
+        align-items: center;
+        padding-top: 1.2rem;
+    }
+    .header-breadcrumb-item{
+        color: black;
+    }
+    .custom-login-button,
+    .custom-register-button {
+        width: 10rem;
+        height: 3rem;
+    }
+
+    .action-buttons {
+        float: right;
+    }
+}

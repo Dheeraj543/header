@@ -35,7 +35,7 @@ const {Header}=Layout;
 function App() {
  
     return(
-        <div className="container">
+        <div className="container1">
 
             <div className="standard-bar">
               <Bar mail="  support@vikasbandhu.com    " phone="  +91 9876543210"/>
@@ -44,9 +44,13 @@ function App() {
                 
             </div>
         <div className="landing-page-header-bar">
+         <div className="col-2">
         <Image className="logo" src="./logo192.png" preview={false} />
+        </div>
+        <div className="col-2">
+          <div className="col-2-2">
         <Breadcrumb className="header-breadcrumb" separator=" ">
-            <Breadcrumb.Item className="item" href="#home">Home</Breadcrumb.Item>
+            <Breadcrumb.Item className="item button" href="#home">Home</Breadcrumb.Item>
                 <Breadcrumb.Item>  
                       <Dropdown overlay={menu}>
     <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
@@ -54,15 +58,23 @@ function App() {
     </a>
             </Dropdown>
             </Breadcrumb.Item>
-            <Breadcrumb.Item className="item" href="#home">Users</Breadcrumb.Item>
-            <Breadcrumb.Item className="item" href="#home">Producers</Breadcrumb.Item>
+            <Breadcrumb.Item className="item button" href="#home">
+              Users
+              </Breadcrumb.Item>
+            <Breadcrumb.Item className="item button" href="#home">Producers</Breadcrumb.Item>
             
-            <Breadcrumb.Item className="item" href="#home"><BellFilled /></Breadcrumb.Item>
+            <Breadcrumb.Item className="item bell" href="#home">
+              <BellFilled style={{ fontSize: '115%'}}/>
+              </Breadcrumb.Item>
 
-         
+              
         </Breadcrumb>
+        </div>
+        <div className="col-2-2-2">
         <Detail/>
-        
+        </div>
+       
+        </div>
     </div>
     
     </div>

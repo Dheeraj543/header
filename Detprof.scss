@@ -1,12 +1,15 @@
 
-.container {
-    position: relative;
-    align-items: center;
-  }
-  
-  .details{
+.details{
     margin: 0;
     position: relative;
     top: 20%;
-
-  }
+}
+.container{
+  display: flex;
+}
+.row-2-70{
+  flex-basis: 70%;
+}
+.row-2-30{
+  flex-basis: 30%;
+}

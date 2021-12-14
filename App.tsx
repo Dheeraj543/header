@@ -2,9 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
 import Bar from './bar';
+import { Anchor } from 'antd';
+
 
 import Detail from './Detprof';
-import { BrowserRouter as Router, Route, Link, BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, BrowserRouter } from "react-router-dom";
 import { Breadcrumb, Image, Modal } from 'antd';
 import { Layout, Menu, Dropdown} from 'antd';
 import { DownOutlined } from '@ant-design/icons';
@@ -13,6 +15,7 @@ import './Anto.css';
 import 'antd/dist/antd.css';
 import './App.css';
 import './index.css';
+const { Link } = Anchor;
 
 const menu = (
     <Menu>
@@ -38,8 +41,8 @@ function App() {
         <div className="container1">
 
             <div className="standard-bar">
-              <Bar mail="  support@vikasbandhu.com    " phone="  +91 9876543210"/>
-
+              <Bar mail="support@vikasbandhu.com    " phone="        +91 9876543210"/>
+         
                 
                 
             </div>
@@ -49,7 +52,8 @@ function App() {
         </div>
         <div className="col-2">
           <div className="col-2-2">
-        <Breadcrumb className="header-breadcrumb" separator=" ">
+          
+          <Breadcrumb className="header-breadcrumb" separator=" ">
             <Breadcrumb.Item className="item button" href="#home">Home</Breadcrumb.Item>
                 <Breadcrumb.Item>  
                       <Dropdown overlay={menu}>
@@ -69,15 +73,16 @@ function App() {
 
               
         </Breadcrumb>
-        </div>
+          </div>
+          
+          
         <div className="col-2-2-2">
         <Detail/>
         </div>
-       
+       </div>
+       </div>
         </div>
-    </div>
     
-    </div>
    );
 
   

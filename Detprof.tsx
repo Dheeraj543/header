@@ -11,8 +11,8 @@ function Detail(props:any) {
         
           <div className="container">
         <div className="row-2-70">
-        <div>Mahesha</div>
-        <div>FO ID:192192</div>
+        <div className="cname">Mahesha</div>
+        <div className="cid">FO ID:192192</div>
         </div>
         <div className="row-2-30">
         <Avatar/>

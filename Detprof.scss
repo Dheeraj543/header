@@ -7,9 +7,36 @@
 .container{
   display: flex;
 }
+.cid{
+  display: inline-block;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+align-items: center;
+text-align: right;
+
+color: #4E4E4E;
+}
+.cname{
+  display: inline-block;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+align-items: center;
+text-align: right;
+
+color: #000000;
+}
 .row-2-70{
+  
   flex-basis: 70%;
 }
 .row-2-30{
+  
   flex-basis: 30%;
 }

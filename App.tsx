@@ -50,7 +50,7 @@ function App() {
          <div className="col-2">
         <Image className="logo" src="./logo192.png" preview={false} />
         </div>
-        <div className="col-2">
+        <div className="col-22">
           <div className="col-2-2">
           
           <Breadcrumb className="header-breadcrumb" separator=" ">
